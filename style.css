@@ -71,3 +71,33 @@ body{
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
 }
+
+@media screen and (max-width: 500px){
+    .QR-code{
+        width: 90vw;
+    }
+
+    .content{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 266px){
+    .heading{
+        position: relative;
+        right: 30px;
+        font-size: 9px;
+        height: 60px;
+    }
+    .desc{
+        
+        position: relative;
+        right: 30px;
+        font-size: 10px;
+    }
+
+    .word{
+        width: 150px;
+    }
+}
+
